@@ -5,6 +5,8 @@
 #'that the first period of \code{df} is period zero in the npv calculation, thus the cash flows in this period is not
 #'discounted.
 #'
+#'test
+#'
 #' @param df Data frame with cash flow, interest rate and period
 #' @param cf Cash flow
 #' @param rate Interest rate
