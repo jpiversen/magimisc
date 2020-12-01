@@ -11,7 +11,6 @@
 #' @param rate Interest rate
 #' @param period Period, e.g. year.
 #'
-
 #'
 #' @return
 #' @export
