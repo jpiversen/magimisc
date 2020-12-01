@@ -82,16 +82,3 @@ jobs:
         with:
           name: ${{ runner.os }}-r${{ matrix.config.r }}-results
           path: check
-          
-      - name: "PR Greeter"
-          on: [pull_request]
-
-          jobs:
-            pr-greeter:
-              runs-on: ubuntu-latest
-              steps:
-                - name: "Greeter"
-                  uses: JJ/pr-greeting-action@releases/v0
-                  with:
-                    repo-token: ${{ secrets.GITHUB_TOKEN }}
-                    pr-message: "Hey **#** welcome to this repo"
